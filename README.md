@@ -28,4 +28,4 @@ So, If we wanna implement this,  we must invoke windows api, and I done this via
 if target_process.is_wow_64:
   teb = teb + 0x2000
 ```
-When process run into wow64, I find that teb value get from thirdpary and the real teb value difference of 0x2000, I have issue it: https://github.com/hakril/PythonForWindows/issues/41
+When process run into wow64, I find that teb value get from thirdpary and the real teb value difference of 0x2000, I have issued it: https://github.com/hakril/PythonForWindows/issues/41
